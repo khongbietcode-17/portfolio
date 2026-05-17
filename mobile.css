@@ -1,0 +1,173 @@
+/* mobile.css */
+
+/* Body */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* Menu */
+#menu ul {
+    padding: 8px;
+    background: #474747;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+    list-style: none;
+}
+
+#menu li {
+    font-size: 10px;
+}
+
+#menu li a {
+    padding: 6px 14px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+}
+
+#menu li a:hover {
+    background: rgba(154, 252, 141, 0.6);
+    color: black;
+}
+
+#menu li.active a {
+    background: rgb(111, 255, 92);
+    color: white;
+}
+
+/* Section1 */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 .container {
+    padding: 100px 20px 50px;
+    height: auto;
+}
+
+.left {
+    margin-bottom: 15px;
+}
+
+.left img {
+    width: 250px;
+    height: auto;
+}
+
+.right {
+    margin-top: 0;
+    text-align: center;
+}
+
+#typewriter {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+#description {
+    font-size: 5px;
+    color: rgb(255, 255, 255);
+  
+}
+
+/* About Section */
+.about-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-text {
+    font-size: 60px;
+    text-align: center;
+    color: #09ff00;
+}
+
+.image-container {
+    width: 180px;
+    height: auto;
+}
+
+.about-description {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Skills Section */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+/* Product Section */
+.product-container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.product-card {
+    width: 100%; /* Chiếm hết chiều rộng 1 hàng */
+    height: auto;
+    margin: 10px 0;
+}
+
+.product-card .image {
+    height: 120px;
+}
+
+/* Media Query cho mobile */
+@media (max-width: 768px) {
+    .product-container {
+        display: block; /* Không sử dụng flex cho mobile */
+    }
+
+    .product-card {
+        width: 100%; /* Mỗi sản phẩm chiếm hết 1 hàng */
+        margin: 10px 0; /* Thêm khoảng cách giữa các sản phẩm */
+    }
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* Contact Section */
+.contact-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-link i {
+    font-size: 28px;
+    padding: 12px;
+}
+
+/* Tab Buttons */
+.tab-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

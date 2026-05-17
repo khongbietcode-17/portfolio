@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tô Trung Tín - Portfolio</title>
+
+  <!-- FullPage CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- Liên kết tệp CSS dành cho điện thoại -->
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 768px)">
+</head>
+<body>
+
+  <!-- Menu -->
+  <div id="menu">
+    <ul>
+      <li data-menuanchor="HOME" class="active"><a href="#trang1">HOME</a></li>
+      <li data-menuanchor="ABOUT"><a href="#trang2">ABOUT</a></li>
+      <li data-menuanchor="trang3"><a href="#trang3">SKILLS</a></li>
+      <li data-menuanchor="trang4"><a href="#trang4">PRODUCTS</a></li>
+      <li data-menuanchor="trang5"><a href="#trang5">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <!-- Fullpage sections -->
+  <div id="fullpage">
+    <div class="section section1">
+      <div class="container">
+        <div class="left">
+          <img src="images/1.png" alt="Ảnh mô tả">
+        </div>
+        <div class="right">
+          <h1 id="typewriter"></h1>
+          <p id="description">I'm Intern Developer </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section2" data-anchor="trang2">
+      <section class="about">
+        <h1 class="background-text">ABOUT ME</h1>
+        <div class="about-container">
+          <div class="about-left">
+            <p class="about-description">
+              I am 22 years old, born in An Giang. I am studying Information Technology at An Giang University, a member of Vietnam National University, Ho Chi Minh City
+            </p>
+            <t2>To Trung Tin</t2>
+          </div>
+          <div class="image-container">
+            <img src="images/anhdep.jpg" alt="Adora">
+          </div>
+          <div class="about-right">
+            <h3>"What kind of person am I?"</h3>
+            <p class="about-description">I consider myself a curious and eager learner who is always open to exploring new things. I approach every task with a positive mindset and always try to find the best possible solution to any problem. I am committed to completing the work assigned to me and constantly strive to improve. There are times when I may not succeed right away, but if you give me a little time, I am confident that no challenge is too difficult for me to overcome.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="section section3" data-anchor="trang3">
+      <h1>MY SKILLS LIFE</h1>
+    
+      <div class="subtitle-box">
+        <h2>
+          <span id="subtitle"></span><span id="cursor"></span>
+        </h2>
+      </div>
+      <div class="tab-header">
+        <span class="tab-button active" data-target="tech-stack">TECH STACK</span>
+        <span class="tab-button" data-target="tools">TOOLS</span>
+      </div>
+      <div id="tech-stack" class="skills-grid">
+        <div class="skill-item">
+          <img src="images/icons/html.png" alt="HTML"><span>HTML</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/css-3.png" alt="CSS">
+          <span>CSS</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/social.png" alt="CSS">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/bootstrap.png" alt="CSS">
+          <span>Bootstrap</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/php.png" alt="CSS">
+          <span>PHP</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/nodejs.png" alt="CSS">
+          <span>NodeJs</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/sql-server.png" alt="CSS">
+          <span>SQL</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/mysql-database.png" alt="CSS">
+          <span>MySQL</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/firebase.png" alt="CSS">
+          <span>Firebase</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/git.png" alt="CSS">
+          <span>Git</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/letter-c.png" alt="CSS">
+          <span>C</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/c-.png" alt="CSS">
+          <span>C++</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/c-sharp.png" alt="CSS">
+          <span>C#</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/java.png" alt="CSS">
+          <span>Java</span>
+        </div>
+        <div class="skill-item">
+          <span>Other...</span>
+        </div>
+      </div>
+      <div id="tools" class="skills-grid" style="display: none;">
+        <div class="skill-item">
+          <img src="images/icons/adobe-photoshop.png" alt="Photoshop">
+          <span>Photoshop</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/adobe-illustrator.png" alt="Figma">
+          <span>illustrator</span>
+        </div>
+        
+        <div class="skill-item">
+          <img src="images/icons/figma.png" alt="Figma">
+          <span>Figma</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/palette.png" alt="Figma">
+          <span>Canva</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/github-logo.png" alt="Figma">
+          <span>Github</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/vs.png" alt="Figma">
+          <span>Visual Studio Code</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/logo.png" alt="Figma">
+          <span>Visual Studio 2022</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/androidstudio.png" alt="Figma">
+          <span>Android Studio</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/eclipse.png" alt="Figma">
+          <span>Eclipse</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/tải xuống.png" alt="Figma">
+          <span>SSMS</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/vertrigo.png" alt="Figma">
+          <span>Vertrigo</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/apps.28704.9007199266243744.f4ca7a76-4e1c-4c9a-a3e8-7781669929be.png" alt="Figma">
+          <span>PicArts</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/image.png" alt="Figma">
+          <span>Wodershare Filmora</span>
+        </div>
+        <div class="skill-item">
+          <img src="images/icons/capcut.png" alt="Figma">
+          <span>Capcut</span>
+        </div>
+        <div class="skill-item">
+          <span>Other...</span>
+        </div>
+      </div>
+    </div>
+    <div class="section section4" data-anchor="trang4">
+      <h1 class="title">MY PRODUCTS</h1>
+      
+      <div class="product-container">
+        <div class="product-card">
+          <div class="image">
+            <img src="images/ql.jpg" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1>Soft Drink Store Management Software</h1>
+            <p>Beverage Shop Management Software helps optimize store operations with features like secure login, adding, editing, and deleting products, updating inventory, and generating invoices. The software also supports QR code scanning, fast payments, and automatic invoice printing, saving time and improving efficiency.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="image">
+            <img src="images/shopwweb.jpg" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1>Website Selling 17 Clothing</h1>
+            <p>17 Clothing is an online store offering a wide range of stylish and trendy apparel. With a user-friendly interface, customers can easily browse, select, and purchase high-quality clothing. The website provides secure payment options, fast shipping, and excellent customer service, ensuring a smooth shopping experience</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="image">
+            <img src="images/app.jpg" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1>App For Booking Football Fields Online</h1>
+            <p>This mobile app allows users to easily book football fields online. With a simple and user-friendly interface, customers can view available time slots, make reservations, and pay securely. The app ensures a hassle-free booking experience, providing convenient access to football fields for individuals and teams.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="image">
+            <img src="images/qlgv.jpg" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1>Teacher Management Software</h1>
+            <p>The teacher management software is a user-friendly, cloud-based platform designed to streamline scheduling, track performance, and simplify administrative tasks. It offers real-time updates, secure data storage, and customizable features, making it a powerful, efficient, and essential tool for modern educational institutions to manage their teaching staff effectively.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="image">
+            <img src="images/agu.jpg" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1> AGU Student Social Network</h1>
+            <p>An Giang University Student Social Network is a digital platform designed to connect students, share academic resources, promote campus events, and support collaboration. It fosters communication, builds community spirit, and enhances student engagement through interactive features, discussion forums, and real-time updates tailored to the university environment.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="image">
+            <img src="images/Screenshot-2024-02-12-133350-1024x580.png.webp" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1>Plant Disease Detection Software</h1>
+            <p>The plant disease detection software uses AI and image recognition to identify symptoms on crops quickly and accurately. It helps farmers diagnose issues, receive treatment suggestions, and monitor plant health in real-time, enhancing productivity, reducing losses, and supporting sustainable agriculture with smart, data-driven insights.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div>
+<div class="product-card">
+          <div class="image">
+            <img src="images/traing.png" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1> Hand Training Game</h1>
+            <p>A reaction training game designed to improve hand-eye coordination, reflex speed, and player focus through interactive gameplay and real-time score tracking.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div><div class="product-card">
+          <div class="image">
+            <img src="images/cnc.png" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1> CNC Store</h1>
+            <p>A modern CNC wooden photo frame website designed to help customers create personalized and meaningful gifts through custom laser-cut designs. The platform allows users to upload images, customize frame styles, and place orders easily with a user-friendly interface. The website also integrates AI technology to support smart design suggestions and image enhancement for a better customer experience. After each successful order, an automatic email confirmation system is sent to customers to ensure convenient order tracking and communication.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div><div class="product-card">
+          <div class="image">
+            <img src="images/123.png" alt="Tên sản phẩm" style="width: 100%; height: 150px; object-fit: cover;">
+          </div>
+          <div class="content">
+            <h1> Liti Brick House - Lego Frame</h1>
+            <p>Liti Brick House is an online platform dedicated to LEGO-inspired creations, collectible models, and creative decoration products. The website provides a user-friendly experience for customers to explore unique brick designs, discover new collections, and connect with a creative LEGO community. With a modern interface and organized product categories, Liti Brick House aims to bring creativity, entertainment, and inspiration to LEGO enthusiasts of all ages.</p>
+            <p>Individual project</p>
+          </div>
+          <div class="footer">
+            <img src="images/icons/github-logo.png" alt="GitHub" class="github-icon">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section5" data-anchor="trang5">
+      <h1 class="contact-title">CONTACT ME</h1>
+    
+      <div class="social-links">
+        <a href="https://github.com/khongbietcode-17" class="social-link" target="_blank">
+          <i class="fab fa-github">Github</i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100074851944490" class="social-link" target="_blank">
+          <i class="fab fa-github">Facebook</i>
+        </a>
+        <a href="https://www.linkedin.com/in/totrungtin/" class="social-link" target="_blank">
+          <i class="fab fa-github">Linkedin</i>
+        </a>
+        <a href="mailto:khongbietcode1@gmail.com" class="social-link">
+          <i class="fab fa-github">Gmail</i>
+        </a>
+        <a href="tel:+84901046544" class="social-link">
+          <i class="fab fa-github">Phone</i>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- FullPage JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+  <!-- GSAP JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
